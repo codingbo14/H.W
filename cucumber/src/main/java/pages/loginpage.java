@@ -43,11 +43,9 @@ public class loginpage {
 	WebElement internet_Banking_URL_field;
 	@FindBy(how = How.XPATH, using = "//button[@class='btn btn-primary']")
 	WebElement Submit_button;
-	// @FindBy(how = How.XPATH, using =
-	//private WebElement initialBalance;
 
 	// Methods to interact with the elements
-	
+
 	public void enterUserName1(String userName) {
 		UserName.sendKeys(userName);
 		try {
@@ -75,96 +73,104 @@ public class loginpage {
 			e.printStackTrace();
 		}
 	}
-		public void clickonbankCash() {
-			bank_and_cash.click();
-			try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			}
-			public void clickonnewAccount() {
-				New_Account_button.click();
-				try {
-					Thread.sleep(3000);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		public void enteraccountTitle (String accountTitle ) {
-			Account_Title_field.sendKeys(accountTitle);
-			try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-			}
-			public void enterdescription(String description) {
-				account_description_field.sendKeys(description);
-				try {
-					Thread.sleep(3000);
-				} catch (InterruptedException e) {
 
-					e.printStackTrace();
-				}
-				}
-				public void enterinitialBalance(String initialBalance) {
-					initial_Balance_field.sendKeys(initialBalance);
-					try {
-						Thread.sleep(3000);
-					} catch (InterruptedException e) {
-						e.printStackTrace();
-					}
-					}
-				public void enteraccountNumber(String accountNumber) {
-					account_Number_field.sendKeys(accountNumber);
-					try {
-						Thread.sleep(3000);
-					} catch (InterruptedException e) {
+	public void clickonbankCash() {
+		bank_and_cash.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
-						e.printStackTrace();
-					}
-					}	
-					public void entercontactPerson(String contactPerson) {
-						contact_person_field.sendKeys(contactPerson);
-						try {
-							Thread.sleep(3000);
-						} catch (InterruptedException e) {
+	public void clickonnewAccount() {
+		New_Account_button.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
-							e.printStackTrace();
-						}
-						}	
-						public void enterPhonenumber(String Phonenumber ) {
-							 phone_Number_field.sendKeys(Phonenumber);
-							try {
-								Thread.sleep(3000);
-							} catch (InterruptedException e) {
+	public void enteraccountTitle(String accountTitle) {
+		Account_Title_field.sendKeys(accountTitle);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 
-								e.printStackTrace();
-							}
-							}	
-							public void enterinternetBankingURL(String internetBankingURL ) {
-								internet_Banking_URL_field.sendKeys(internetBankingURL);
-								try {
-									Thread.sleep(3000);
-								} catch (InterruptedException e) {
+	public void enterdescription(String description) {
+		account_description_field.sendKeys(description);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
 
-									e.printStackTrace();
-								}	
-								}	
-								public void clickonsubmitbutton(){
-									Submit_button.click();
-									try {
-										Thread.sleep(3000);
-									} catch (InterruptedException e) {
-										e.printStackTrace();
-									}	
-								}
+			e.printStackTrace();
+		}
+	}
 
-								public String getTitle() {
-									// TODO Auto-generated method stub
-									return null;
-								}
+	public void enterinitialBalance(String initialBalance) {
+		initial_Balance_field.sendKeys(initialBalance);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void enteraccountNumber(String accountNumber) {
+		account_Number_field.sendKeys(accountNumber);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public void entercontactPerson(String contactPerson) {
+		contact_person_field.sendKeys(contactPerson);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public void enterPhonenumber(String Phonenumber) {
+		phone_Number_field.sendKeys(Phonenumber);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public void enterinternetBankingURL(String internetBankingURL) {
+		internet_Banking_URL_field.sendKeys(internetBankingURL);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public void clickonsubmitbutton() {
+		Submit_button.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public String getTitle() {
+
+		return driver.getTitle();
+	}
 }
-					
-

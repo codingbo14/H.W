@@ -1,0 +1,139 @@
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+import pages.TestBase;
+import pages.loginpage;
+
+
+public class StepsDefination extends TestBase {
+	loginpage loginpage; 
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		//String actualTitle = loginpage.getClass() 
+		String actualTitle = loginpage.getTitle();
+		Assert.assertEquals(expectedTitle,actualTitle);
+	}
+	///*@When("User enters the {string} in the {string} field")
+	//public void user_enters_username_as(String logindata, String field) {
+	//	if (field.equalsIgnoreCase("username")) {
+	//		loginpage.enterUserName(logindata);
+	//	} else if (field.equalsIgnoreCase(" password")) {
+	//		loginpage.enterPassword(logindata);
+	//	} else {system.out.println("unable to find field:" + field)
+
+		@When("User enters the {string} in the {string} field")
+		public void user_enters_username_as(String logindata,String field){
+			 
+				switch(field) {
+				
+				case"username":
+					
+					loginpage.enterUserName1(logindata);
+					break;
+					
+				case"password":
+					
+					loginpage.enterPassword(logindata);
+					break;
+				default:
+					
+				System.out.println("unable to find field:" + field);
+				Assert.fail();
+				}
+		 }
+		 @When("User clicks on {string}")
+		 public void user_clicks_on(String buttontype){
+		       switch (buttontype) {
+		       case"login":
+		       loginpage.clickSignInButton();
+		       break;
+		       case"bankcash":
+		     	  loginpage = PageFactory.initElements(driver, loginpage.class);
+		     	  loginpage.clickonbankCash();
+		     	  break;
+		       case"newAccount":
+		     	  loginpage.clickonnewAccount();
+		     	  break;
+		       case"submit":
+		       loginpage.clickonsubmitbutton();
+		       default:
+		    	   System.out.println("unable to click on the button:" + buttontype);
+		       }
+		 }
+		       @Then("User enters {string} in the {string} field in accounts page")
+		       public void user_enters_in_the_field_in_accounts_page(String logindata, String field) {
+		    	   switch(field) {
+		    	   case"accountTitle":
+		    	   loginpage.enteraccountTitle(logindata);
+		    	   break;
+		    	  
+		    	   case"description":
+		    	   loginpage.enterdescription(logindata);
+		    	   break;
+		    	   
+		    	  
+		    	   case"initialBalance":
+		    	   loginpage.enteraccountTitle(logindata);
+		    	   break;
+		    	   
+		    	   
+		    	   case"accountNumber":
+		    	   loginpage.enteraccountTitle(logindata);
+		    	   break;
+		    	  
+		    	   case"contactPerson":
+		    	   loginpage.enteraccountTitle(logindata);
+		    	   break;
+		    	   
+		    	   
+		    	   
+		    	   case"Phone":
+		    		   loginpage.enteraccountNumber(logindata);
+		    		   break;
+		    	   case"internetBankingURL":
+		    		   loginpage.enteraccountNumber(logindata);
+		    		  default:
+		    			  System.out.println("logindata:"+ );
+		    	   		   		   
+		       
+		      @Then("User should be able to validate account created successfully")
+		       public void user_should_be_able_to_validate_account_created_successfully()
+				
+	}
+	
+		       }
+	
+
+	
+
+
+	
+	
+
+	
+	
+	

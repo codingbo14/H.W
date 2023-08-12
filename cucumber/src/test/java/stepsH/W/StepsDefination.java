@@ -116,18 +116,22 @@ public class StepsDefination extends TestBase {
 		    		   break;
 		    	   case"internetBankingURL":
 		    		   loginpage.enteraccountNumber(logindata);
-		    		   break;
-		    	   }		   		   
-		    	   
-		      @Then("User should be able to validate account created successfully")
-		       public void user_should_be_able_to_validate_account_created_successfully()
-				}
+		    		  default:
+		    			  System.out.println("login information:"+ logindata + "not invalid in" + field);
+		    	   }	   
+		       
+		   
+				
 	}
 	
-
+		      
 	
-
-	
+@After
+public void tearDown() {
+	driver.close();
+	driver.quit();
+}
+}	
 
 
 	
