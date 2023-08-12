@@ -1,0 +1,3507 @@
+!SESSION 2023-08-09 06:46:29.342 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\gsela\selenium2023 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\gsela\selenium2023\.metadata\.bak_0.log
+Created Time: 2023-08-09 06:46:38.363
+!SESSION 2023-08-09 06:46:29.342 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\gsela\selenium2023 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.testng.eclipse 4 0 2023-08-09 06:46:38.365
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-09 06:46:39.738
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-09 07:11:19.646
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-08-09 11:24:21.093 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-09 11:24:26.044
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-09 11:24:38.634
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-09 11:38:37.078
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-09 12:24:22.395
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-09 12:24:22.397
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-09 12:24:38.249
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2023-08-09 18:09:35.643 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-09 18:09:52.843
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-09 18:14:10.242
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-09 18:25:07.223
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-09 18:25:07.223
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-09 18:25:20.138
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2023-08-09 22:00:38.904 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-09 22:00:53.921
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-09 22:08:35.571
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-09 23:26:13.228
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-09 23:26:13.231
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-09 23:26:27.703
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2023-08-10 09:39:00.717 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.testng.eclipse 4 0 2023-08-10 09:39:17.417
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-10 09:39:19.167
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-10 10:07:58.146
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-10 10:07:58.148
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-10 10:08:13.954
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-10 11:49:58.424
+!MESSAGE Could not retrieve declared methods
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.TypeSystem.getArrayType(TypeSystem.java:298)
+	at org.eclipse.jdt.internal.compiler.lookup.AnnotatableTypeSystem.getArrayType(AnnotatableTypeSystem.java:95)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeVariable(LookupEnvironment.java:2061)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getTypeFromTypeSignature(LookupEnvironment.java:1975)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethod(BinaryTypeBinding.java:893)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.createMethods(BinaryTypeBinding.java:1013)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.cachePartsFrom(BinaryTypeBinding.java:562)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1053)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createBinaryTypeFrom(LookupEnvironment.java:1034)
+	at org.eclipse.jdt.internal.compiler.Compiler.accept(Compiler.java:308)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:257)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:114)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:243)
+	at org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding.resolve(ParameterizedTypeBinding.java:1206)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:214)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveTypesFor(BinaryTypeBinding.java:1655)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.availableMethods(BinaryTypeBinding.java:427)
+	at org.eclipse.jdt.core.dom.TypeBinding.getDeclaredMethods(TypeBinding.java:292)
+	at org.eclipse.jdt.internal.corext.dom.Bindings.findOverriddenMethodInType(Bindings.java:496)
+	at org.eclipse.jdt.internal.corext.dom.Bindings.findOverriddenMethodInHierarchy(Bindings.java:513)
+	at org.eclipse.jdt.internal.corext.dom.Bindings.findOverriddenMethods(Bindings.java:569)
+	at org.eclipse.jdt.internal.corext.dom.Bindings.findOverriddenMethod(Bindings.java:540)
+	at org.eclipse.jdt.internal.ui.javaeditor.OverrideIndicatorManager$1.visit(OverrideIndicatorManager.java:187)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:593)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:447)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:258)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.ui.javaeditor.OverrideIndicatorManager.updateAnnotations(OverrideIndicatorManager.java:179)
+	at org.eclipse.jdt.internal.ui.javaeditor.OverrideIndicatorManager.reconciled(OverrideIndicatorManager.java:261)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1693)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:222)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:167)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-08-10 12:31:09.948
+!MESSAGE Execution exception for: ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65c031d2,
+		,,true),null) in 
+	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (org.eclipse.jst.j2ee.J2EEPerspective) Context -> PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.jdt.ui.CompilationUnitEditor (StepsDefination.java) Context
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:126)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:498)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1199)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1056)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1491)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4879)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4761)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4812)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+Caused by: java.lang.IndexOutOfBoundsException: Index 536 out of bounds for length 536
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.eclipse.jdt.internal.formatter.TokenManager.get(TokenManager.java:75)
+	at org.eclipse.jdt.internal.formatter.TokenManager.findIndex(TokenManager.java:168)
+	at org.eclipse.jdt.internal.formatter.TokenManager.firstIndexIn(TokenManager.java:180)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.tryKeepOnOneLine(OneLineEnforcer.java:155)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.endVisit(OneLineEnforcer.java:145)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:130)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2922)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:617)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:447)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:258)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareLineBreaks(DefaultCodeFormatter.java:420)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareFormattedCode(DefaultCodeFormatter.java:230)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:186)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:168)
+	at org.eclipse.jdt.internal.corext.util.CodeFormatterUtil.reformat(CodeFormatterUtil.java:291)
+	at org.eclipse.jdt.internal.ui.text.java.JavaFormattingStrategy.format(JavaFormattingStrategy.java:75)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:197)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:143)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1025)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:199)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:206)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	... 56 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-08-10 12:51:02.262
+!MESSAGE Execution exception for: ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65c031d2,
+		,,true),null) in 
+	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (org.eclipse.jst.j2ee.J2EEPerspective) Context -> PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.jdt.ui.CompilationUnitEditor (StepsDefination.java) Context
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:126)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:498)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1199)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1056)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1491)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4879)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4761)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4812)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+Caused by: java.lang.IndexOutOfBoundsException: Index 521 out of bounds for length 521
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.eclipse.jdt.internal.formatter.TokenManager.get(TokenManager.java:75)
+	at org.eclipse.jdt.internal.formatter.TokenManager.findIndex(TokenManager.java:168)
+	at org.eclipse.jdt.internal.formatter.TokenManager.firstIndexIn(TokenManager.java:180)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.tryKeepOnOneLine(OneLineEnforcer.java:155)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.endVisit(OneLineEnforcer.java:145)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:130)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2922)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:617)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:447)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:258)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareLineBreaks(DefaultCodeFormatter.java:420)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareFormattedCode(DefaultCodeFormatter.java:230)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:186)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:168)
+	at org.eclipse.jdt.internal.corext.util.CodeFormatterUtil.reformat(CodeFormatterUtil.java:291)
+	at org.eclipse.jdt.internal.ui.text.java.JavaFormattingStrategy.format(JavaFormattingStrategy.java:75)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:197)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:143)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1025)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:199)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:206)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	... 56 more
+!SESSION 2023-08-10 22:14:39.813 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-10 22:14:53.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-10 22:15:07.931
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-10 22:39:20.179
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-10 22:39:20.180
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-10 22:39:31.836
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.ui 4 0 2023-08-10 23:18:50.689
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2686)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3330)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:970)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:952)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1075)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3961)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3314)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4027)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3579)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+!SESSION 2023-08-11 08:28:11.483 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 08:28:28.876
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-11 08:28:37.450
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-11 08:51:04.685
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-11 08:51:04.685
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-11 08:51:13.496
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:38:36.364
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String string, String string2
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:38:36.386
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:38:36.386
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:08.363
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String , String string2
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:08.363
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:08.363
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:27.108
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(Stringloginpage , String string2
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:27.108
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:27.108
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:29.137
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String string2
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:29.157
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:29.157
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:37.778
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String 
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:37.778
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:37.778
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:52.522
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String field
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:52.522
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:52.522
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:55.054
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String field0
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:55.054
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:55.054
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:56.585
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String field
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:56.587
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:56.587
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-08-11 10:39:57.610
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package stepsH.W;
+
+import org.junit.Assert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import page.Loginpage;
+
+import pages.TestBase;
+
+public class StepsDefination extends TestBase {
+	Loginpage loginpage;
+
+	@Before
+	public void setup() {
+		initDriver();
+		loginpage = PageFactory.initElements(driver, Loginpage.class);
+	}
+
+	@Given("User is on the techfios login page")
+	public void user_is_on_the_techfios_login_page() {
+		initDriver();
+		driver.get("https://techfios.com/billing/?ng=login/");
+	}
+
+	/*@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+		if (field.equalsIgnoreCase("username")) {
+			loginpage.enterUserName(logindata);
+		} else if (field.equalsIgnoreCase(" password")) {
+			loginpage.enterPassword(logindata);
+		} else {
+
+	*	/	System.out.println("loging data:" + logindata + "and field:" + field + "not found!");
+@When("User enters the {string} in the {string} field")
+	public void user_enters_username_as(String logindata, String field) {
+        switch(field
+	
+
+	//@When("User clicks on {string")
+	//public void user_clicks_onsign_in_button(String logindata)
+	//{
+	//	loginpage.clickSignInButton();
+	//}
+
+	@Then("User should land on Dashboard page")
+	public void user_should_land_on_Dashboard_page() {
+		String expectedTitle = "Dashboard- iBilling";
+		String actualTitle = loginpage.getPageTitle();
+		Assert.assertEquals(expectedTitle, actualTitle);
+	}
+	
+
+	//@And("User clicks on BankCash{string}")
+	//public void user_clicks_on_BankCash() {
+	//	loginpage.clickonBankCash();
+	//}
+
+	//@And("User clicks on newAccount{string}")
+	//public void user_new_Account_button() {
+    // loginpage.
+	//}
+	 * 
+	 * 
+	 */
+	
+	@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String loginpage , String field)
+@when("User clicks on {string}")
+public void user_clicks_on(string button)
+      switch(button) {
+      loginpage.clickSignInButton();
+      break;
+      case"bankcash":
+    	  accountpage = PageFactory.initElements(driver, Loginpage.class);
+    	  loginpage.clickonBankCash();
+    	  break;
+      case"newAccount":
+    	  loginpage.clickonnewAccountbutton();
+    	  break;
+      case"submit"
+      loginpage.clickonsubmitbutton()
+      }
+System.out.println("unable to click on the button:" + button);
+      }
+
+	@Then("User enters accountTitle in the {string}")
+	public void user_enters_in_the_field_in_accountTitle(String accountTitle) {
+		loginpage.clickaccountTitle();
+	}
+
+	@Then("User entersin the description{string}")
+	public void user_enters_in_the_field_in_description() {
+		loginpage.enterdescription();
+	}
+
+	@Then("User entersinitialBalance{string}")
+	public void user_enters_in_the_field_in_initialBalance() {
+       loginpage.
+	}
+
+	@Then("User enters accountNumber{string}")
+	public void user_enters_in_the_field_in_accountNumber() {
+		loginpage.enteraccountNumber(accountnumber);
+	}
+
+	@Then("User enters contactPerson{string}")
+	public void user_enters_in_the_field_in_contactPerson() {
+		loginpage.
+	}
+
+	@Then("User entersPhonenumber{string}")
+	public void user_enters_in_the_field_in_Phonenumber() {
+		loginpage.enterPhonenumber(Phonenumber);
+	}
+
+	@Then("User entersinternetBankingURL{string}")
+	public void user_enters_in_the_field_in_internetBankingURL() {
+
+		loginpage.enterinternetBankingURL(internetBankingURL);
+	}
+
+	@And("User clicks on submit ")
+	public void user_clicks_on_submit() {
+		loginpage.
+	}
+
+	/*
+	 * 
+	 * @When("User enters the {string} in the {string} field")
+	 * 
+	 * public void user_enters_the_in_the_field(String logindata, String field) {
+	 * switch (field) { case "Username": loginpage.enterUserName(logindata); break;
+	 * 
+	 * case "Password": loginpage.enterPassword(logindata); break; default:
+	 * System.out.println("unable to enterlogindata:" + logindata + "in field:" +
+	 * field); }
+	 * 
+	 * }
+	 * 
+	 * @When("user clicks ob{}string}") public void user_clicks_on(String button) {
+	 * switch (button) { case "login": loginpage.clickSignInButton(); break; case
+	 * "bankcash": // accountpage =PageFactory.initElements(driver,
+	 * accountpage.class); loginpage.clickSignInButton();
+	 * 
+	 * break; case "newAccount": loginpage.clickSignInButton(); break; case
+	 * "submit": loginpage.clickSignInButton();
+	 * 
+	 * default:
+	 * 
+	 * System.out.println("unable to click on the button:" + button);
+	 * 
+	 * } }
+	 * 
+	 * @Then("User enters {string} in the {string} field in accounts page") public
+	 * void user_enters_in_the_field_in_Phone_accounts_page(String userinfo, String
+	 * field) { switch(field) {
+	 * 
+	 * 
+	 * case "accountTitle":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__clickaccountTitle_element( userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"description":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertdescription_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"initialBalance":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__initialBalance_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"accountNumber":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_insertaccountNumber_element(userinfo) ;
+	 * 
+	 * break;
+	 * 
+	 * case "contactPerson":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_contactPerson_element( userinfo); ;
+	 * 
+	 * break;
+	 * 
+	 * case"Phone":
+	 * 
+	 * loginpage.user_enter_in_the_field_in__insertPhonenumber_element(userinfo);
+	 * 
+	 * break;
+	 * 
+	 * case"internetBankingURL":
+	 * 
+	 * loginpage.user_enter_in_the_field_in_internetBankingURL_element(userinfo);
+	 * 
+	 * default: System.out.println("incorect Account Data:"+userinfo);
+	 * 
+	 * }
+	 * 
+	 * @Then("User should be able to validate account created successfully") public
+	 * void User_should_be_able_to_validate_account_created_successfully() {
+	 * 
+	 * takeScreenshot(driver); String expectedTitle = "Accounts-iBilling"; String
+	 * actualTitle = loginpage.getPageTitle(); Assert.assertEquals(expectedTitle,
+	 * actualTitle); }
+	 * 
+	 * @After public void tearDown() { driver.close(); driver.quit();
+	 */}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-08-11 10:39:57.610
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-08-11 10:39:57.610
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3008)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3115)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1439)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:392)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SESSION 2023-08-11 12:33:16.645 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\gsela\selenium2023 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 12:33:30.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-11 12:33:48.400
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-11 12:33:57.067
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-11 12:33:57.067
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-11 12:34:11.072
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-08-11 12:48:33.607
+!MESSAGE Execution exception for: ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ae9fce7,
+		,,true),null) in 
+	context chain: WorkbenchContext -> TrimmedWindowImpl (IDEWindow) Context -> PerspectiveImpl (org.eclipse.jst.j2ee.J2EEPerspective) Context -> PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.jdt.ui.CompilationUnitEditor (StepsDefination.java) Context
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the action, an exception occurred
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:126)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:498)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1199)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1056)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1108)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1491)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4879)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4761)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4812)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+Caused by: java.lang.IndexOutOfBoundsException: Index 466 out of bounds for length 466
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at org.eclipse.jdt.internal.formatter.TokenManager.get(TokenManager.java:75)
+	at org.eclipse.jdt.internal.formatter.TokenManager.findIndex(TokenManager.java:168)
+	at org.eclipse.jdt.internal.formatter.TokenManager.firstIndexIn(TokenManager.java:180)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.tryKeepOnOneLine(OneLineEnforcer.java:155)
+	at org.eclipse.jdt.internal.formatter.OneLineEnforcer.endVisit(OneLineEnforcer.java:145)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:130)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:2922)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:617)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.TypeDeclaration.accept0(TypeDeclaration.java:447)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:2945)
+	at org.eclipse.jdt.core.dom.CompilationUnit.accept0(CompilationUnit.java:258)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:2874)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareLineBreaks(DefaultCodeFormatter.java:420)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.prepareFormattedCode(DefaultCodeFormatter.java:230)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:186)
+	at org.eclipse.jdt.internal.formatter.DefaultCodeFormatter.format(DefaultCodeFormatter.java:168)
+	at org.eclipse.jdt.internal.corext.util.CodeFormatterUtil.reformat(CodeFormatterUtil.java:291)
+	at org.eclipse.jdt.internal.ui.text.java.JavaFormattingStrategy.format(JavaFormattingStrategy.java:75)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.formatMaster(MultiPassContentFormatter.java:197)
+	at org.eclipse.jface.text.formatter.MultiPassContentFormatter.format(MultiPassContentFormatter.java:143)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1025)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1466)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSourceViewer.doOperation(JavaSourceViewer.java:199)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:206)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	... 56 more
+!SESSION 2023-08-11 13:37:59.504 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 13:38:20.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-11 13:38:23.738
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-11 14:05:19.039
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-11 14:05:19.039
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-11 14:05:33.380
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+!SESSION 2023-08-11 20:49:36.669 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-11 20:49:56.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gsela'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 0 2023-08-11 20:50:04.554
+!MESSAGE <enabledWhen> element is required. Disabling org.testng.eclipse.codemining.testngProvider
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2023-08-11 20:51:53.675
+!MESSAGE HTTP Server Unknown HTTP Response Code (308):http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 308.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2023-08-11 20:51:53.683
+!MESSAGE HttpComponents connection error response code 308.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-11 20:52:11.574
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.

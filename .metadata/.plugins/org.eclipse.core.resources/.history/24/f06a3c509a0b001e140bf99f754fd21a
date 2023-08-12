@@ -1,0 +1,35 @@
+package variousconcepts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class loginTest {
+	
+    public static void main(String[] args) throws InterruptedException {
+		
+    	//set system property
+    //	System.setProperty("webdriver.chrome.driver", "C:\\Users\\gsela\\selenium2023\\crm\\driver\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver",".\\driver\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver" ,"driver/chromedriver.exe");
+    	//chrome object
+    	
+    	WebDriver driver = new ChromeDriver();
+    	//delete cookies
+    	driver.manage().deleteAllCookies();
+    	//maximize window
+    	driver.manage().window().maximize();
+    	//go to website
+    	driver.get("https://techfios.com/billing/?ng=login/");
+    	// insert username
+    	driver.findElement(By.id("username")).sendKeys("demo@techfios.com");
+    	//insert password
+    	driver.findElement(By.id("password")).sendKeys("558566");
+    	//Click sign in button
+    	driver.findElement(By.name("login")).click();
+    	Thread.sleep(2000);
+    	//close browser
+    	driver.close();
+	} 
+}

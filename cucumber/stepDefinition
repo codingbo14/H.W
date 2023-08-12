@@ -1,0 +1,6 @@
+
+
+@When("User enters the {string} in the {string} field")
+	public void user_enters_the_in_the_field(String data, String field) {
+	    
+	}

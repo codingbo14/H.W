@@ -1,0 +1,27 @@
+package variousconcepts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class loginTest {
+	
+    public static void main(String[] args) {
+		
+    	//set system property
+    //	System.setProperty("webdriver.chrome.driver", "C:\\Users\\gsela\\selenium2023\\crm\\driver\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+
+
+    	//chrome object
+    	
+    	WebDriver driver = new ChromeDriver();
+    	
+    	driver.get("https://techfios.com/billing/?ng=login/");
+    	
+    	driver.findElement(By.id("username")).sendKeys("demo@techfios.com");
+    	//insert password
+    	driver.findElement(By.id("password")).sendKeys("558566");
+    	
+	} 
+}

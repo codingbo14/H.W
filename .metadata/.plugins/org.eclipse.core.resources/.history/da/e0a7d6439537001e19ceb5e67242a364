@@ -1,0 +1,135 @@
+package page;
+
+import org.junit.runner.Description;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+
+public class Loginpage {
+	WebDriver driver;
+
+	public void loginpage(WebDriver driver) {
+		this.driver = driver;
+		
+		// Element Library
+		@FindBy(how = How.XPATH, using = "//input[@id='username']")
+		WebElement UserName;
+		@FindBy(how = How.XPATH, using = "//input[@id='password']")
+
+		WebElement Password;
+		@FindBy(how = How.XPATH, using = "//button[@name='login']")
+		WebElement SignInButton;
+		@FindBy(how = How.XPATH, using = "//[@id='page-wrapper']")
+		WebElement bank_and_cash;
+		@FindBy(how = How.XPATH, using = "//[@id='page-wrapper']/div[3]/div[1]/div/div/div[1]/h5")
+		WebElement new_account_button;
+		@FindBy(how = How.XPATH, using = "//[@id='account']")
+		WebElement account_Title_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='description']")
+		WebElement account_description_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='balance']")
+		WebElement initial_Balance_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='account_number']")
+		WebElement account_Number_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='contact_person']")
+		WebElement contact_person_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='contact_phone']")
+		WebElement phone_Number_field;
+		@FindBy(how = How.XPATH, using = "//input[@id='ib_url']")
+		WebElement internet_Banking_URL_field;
+		@FindBy(how = How.XPATH, using = "//button[@class='btn btn-primary']")
+		WebElement submit_button;
+		
+		// Methods to interact with the elements
+		
+		public void enterUserName(String userName) {
+			userName.sendKeys(userName);
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+
+		public void enterPassword(String password) {
+			password.sendKeys(password);
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+
+				e.printStackTrace();
+			}
+		}
+
+		public void clickSignInButton() {
+			SignInButton.click();
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			public void clickaccountTitle (String accountTitle ) {
+				accountTitle.click();
+				try {
+					Thread.sleep(3000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				public void enterdescription(String password) {
+					Description.sendKeys(description);
+					try {
+						Thread.sleep(3000);
+					} catch (InterruptedException e) {
+
+						e.printStackTrace();
+					}
+					public void enterinitialBalance_(String password) {
+						
+						try {
+							Thread.sleep(3000);
+						} catch (InterruptedException e) {
+
+							e.printStackTrace();
+						}	
+			}
+		}
+		
+			
+
+	/*public void user_enter_in_the_field_in__clickaccountTitle_element(String userinfo) {
+	}
+
+	public void user_enter_in_the_field_in__insertdescription_element(String userinfo) {
+	}
+
+	public void user_enter_in_the_field_in__initialBalance_element(String userinfo) {
+	}
+
+	public void user_enter_in_the_field_in_insertaccountNumber_element(String userinfo) {
+	}
+
+	public void user_enter_in_the_field_in_insertcontactPerson_element(String userinfo) {
+
+	}
+
+	public void user_enter_in_the_field_in__insertcontactPerson_element(String userinfo) {
+
+	}
+
+	public void user_enter_in_the_field_in__insertPhonenumber_element(String userinfo) {
+	}
+
+	public void user_enter_in_the_field_in__insertinternetBanking_element(String userinfo) {
+
+	}
+	*/public void user_enter_in_the_field_in_contactPerson_element(String userinfo) {
+		
+		
+	}
+	public String getPageTitle() {
+		
+		return null;
+	}
+
+}
